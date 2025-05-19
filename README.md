@@ -1,14 +1,14 @@
 # 🧠 Consultas e Filtragens
-GET /instrutores
+GET /instrutores ✅
 → Retorna todos os usuários do tipo "instrutor".
 
-GET /cursos/com-muitos-comentarios?min=3
+GET /cursos/com-muitos-comentarios?min=3  ✅
 → Retorna cursos com mais de 3 comentários.
 
-GET /usuarios/:id/cursos
+GET /usuarios/:id/cursos ✅
 → Retorna os cursos em que o usuário com :id está matriculado.
 
-GET /usuarios/com-progresso-acima?min=80
+GET /usuarios/com-progresso-acima?min=80  ✅
 → Lista usuários com progresso acima de 80% em qualquer curso.
 
 GET /usuarios/:id/comentarios
